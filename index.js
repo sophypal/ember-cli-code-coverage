@@ -19,7 +19,7 @@ module.exports = {
     }
   },
 
-  postprocessTree: function(type, tree) {
+  preprocessTree: function(type, tree) {
     if (this._coverageIsEnabled() && type === 'js') {
       var appFiles = new Funnel(tree, {
         exclude: this._config().excludes
@@ -44,4 +44,3 @@ module.exports = {
     return config(this.project.root);
   }
 };
-
