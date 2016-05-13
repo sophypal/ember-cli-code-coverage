@@ -32,6 +32,7 @@
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
+    "ember-computed-decorators": "0.2.2",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
@@ -48,14 +49,18 @@
     "ember-addon"
   ],
   "dependencies": {
+    "babel-core": "^5.8.38",
     "body-parser": "^1.15.0",
     "broccoli-filter": "^1.2.3",
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
     "ember-cli-babel": "^5.1.6",
+    "escodegen": "^1.8.0",
+    "esprima": "^2.7.2",
     "extend": "^3.0.0",
     "fs-extra": "^0.26.7",
-    "istanbul": "^0.4.3"
+    "istanbul": "^0.4.3",
+    "lodash": "^4.12.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
